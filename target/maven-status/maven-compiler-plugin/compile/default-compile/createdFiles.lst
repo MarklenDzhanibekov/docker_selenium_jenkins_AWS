@@ -1,0 +1,9 @@
+org\marklen\pages\flightreservation\FlightConfirmationPage.class
+org\marklen\pages\vendorportal\DashboardPage.class
+org\marklen\pages\vendorportal\LoginPage.class
+org\marklen\pages\flightreservation\FlightsSearchPage.class
+org\marklen\pages\flightreservation\RegistrationConfirmationPage.class
+org\marklen\pages\AbstractPage.class
+org\marklen\pages\flightreservation\FlightsSelectionPage.class
+org\marklen\pages\flightreservation\RegistrationPage.class
+org\marklen\Main.class
