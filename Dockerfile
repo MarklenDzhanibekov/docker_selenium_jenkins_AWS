@@ -8,7 +8,7 @@ WORKDIR /home/selenium-docker
 
 # Add the required files. Dot means copy to the current cat
 ADD target/docker-resources ./
-ADD runner.sh               runner.sh
+ADD runner1.sh               runner1.sh
 
 # Environment variables
 # Browser
@@ -17,7 +17,7 @@ ADD runner.sh               runner.sh
 # THREAD_COUNT
 
 # Start the runner.sh
-ENTRYPOINT sh runner.sh
+ENTRYPOINT sh runner1.sh
 
 # java -cp 'libs/*' \
 #           -Dselenium.grid.enabled=true \
