@@ -34,6 +34,8 @@ done
 
 # At this point, selenium grid should be up!
 echo "Selenium Grid is up and running. Running the test...."
+echo "git config --global core.autocrlf input"
+
 
 # Start the java command
 java -cp 'libs/*' \
